@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Matemagica</title>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+<body>
+  <div class="container-num">
+    <p>Matemágica</p>
+    <div id="shuffle">
+      <button onclick="add_value(1)">1</button>
+      <button onclick="add_value(2)">2</button>
+      <button onclick="add_value(3)">3</button>
+      <button onclick="add_value(4)">4</button>
+      <button onclick="add_value(5)">5</button>
+      <button onclick="add_value(6)">6</button>
+      <button onclick="add_value(7)">7</button>
+      <button onclick="add_value(8)">8</button>
+      <button onclick="add_value(9)">9</button>
+    </div>
+ 
+    <div class="container-ans">  
+      <div id="text1">
+        <input type="number" id="fnum" name="fnum" onclick="erase('fnum')" readonly/><br><br>
+      </div>
+      
+      <div id="operador">
+        <img id="operator" src="../../../assets/minus.svg" alt="">
+      </div>
+
+      <div id="text2">
+        <input type="number" id="snum" name="snum" onclick="erase('snum')" readonly/><br><br>
+      </div>
+      
+      <div id="operador1">
+        <img src="../../../assets/equals.svg" alt="">
+      </div>
+
+      <div id="text3">
+        <input id="rnum" type="number" disabled><br><br>
+      </div>
+    </div>
+    <div id="enviar">
+    <button id="btnSend" onclick="addition()">Responder</button>
+    </div>
+  </div>
+</body>
+
+</html>

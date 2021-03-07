@@ -1,0 +1,43 @@
+body {
+    background-image: url(../../../assets/background.jpg);
+    background-repeat: repeat;
+  }
+
+video {
+    width: 100%;
+  }
+
+p {
+    color:#E6054A;
+    background-color: #FBF6F8;
+    font-size: 90px;
+    padding: 2%;
+}
+
+.container {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 3%;
+}
+
+.play {
+    align-items: center;
+    line-height: 2.5;
+    height: 80px;
+    width: 50%;
+    background: #E6054A;
+    border: 0;
+    border-radius: 4px;
+    color: #FBF6F8;
+    font-weight: bold;
+    margin-top: 90px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}

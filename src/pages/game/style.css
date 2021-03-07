@@ -1,0 +1,98 @@
+body {
+    background-image: url(../../../assets/background.jpg);
+    background-repeat: repeat;
+  }
+
+.container-num { 
+    width: 95vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.container-ans{
+    margin-top: 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p {
+    color:#E6054A;
+    background-color: #FBF6F8;
+    font-size: 90px;
+    padding: 2%;
+}
+
+#shuffle > button {
+    float: center;
+    line-height: 55px;
+    width: 120px;
+    text-align: center;
+    background-color: #E6054A;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 25px;
+    margin: 20px;
+}
+#shuffle {
+    max-width: 480px;
+}
+
+#text1 > input{
+    text-align: center;
+    width: 80px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+#text2 > input{
+    margin-left: 35px;
+    text-align: center; 
+    width: 80px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+    }
+
+#text3 > input{
+    margin-left: 50px;
+    text-align: center; 
+    width: 80px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+#rnum{
+    margin-left: 40px;
+    font-size: 30px;
+    background-color: white;
+}
+#enviar > button {
+    margin-top: 35px;
+    float: center;
+    line-height: 55px;
+    width: 150px;
+    text-align: center;
+    background-color: #E6054A;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 25px;
+}     
+
+#operador > img{
+margin-left: 30px;
+height: 50px;
+    width: 50px;
+}
+
+#operador1 > img{
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+    }
+    
